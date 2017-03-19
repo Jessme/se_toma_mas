@@ -1,0 +1,547 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background: #fff;
+}
+
+/* Recordar que debo crear cada body de las páginas con ID para evitar
+el scroll down innecesario*/
+body{
+	width: 1026px;
+	height: 1500px;
+	margin: 0px auto;
+	background: #F2EEA7;
+}
+#body-prep{
+	width: 1024px;
+	height: 1100px;
+	margin: 0px auto;
+}
+#bodyeditorial{
+	width: 1024px;
+	height: 1200px;
+	margin: 0px auto;
+}
+#body-tip{
+	width: 1024px;
+	height: 1300px;
+	margin: 0px auto;
+}
+#body-tour{
+	width: 1024px;
+	height: 1100px;
+	margin: 0px auto;
+}
+#body-contacto{
+	width: 1024px;
+	height: 1100px;
+	margin: 0px auto;
+}
+header{
+	width: 1024px;
+	height: 300px;
+	background: url(../images/fondo-header.png);
+	float: left;
+}
+#logo
+{
+	float: left;
+	margin: 50px 0px 0px 70px;
+}
+#fecha
+{
+	float: right;
+	margin: 40px 40px 0px 0px;
+}
+#twitter
+{
+	float: left;
+	margin: 160px 5px 15px 385px;
+}
+#facebook
+{
+	float: left;
+	margin: 90px 5px 0px 5px;
+}
+#instagram
+{
+	float: left;
+	margin-top: 160px;
+}
+#youtube
+{
+	float: left;
+	margin-top: 90px;
+}
+#buscador
+{
+	float: left;
+	margin-left: 385px;
+}
+#lupa
+{
+	float: left;
+	margin-left: 10px;
+}
+#menu{
+	float:left;
+}
+ul{
+	list-style-type: none;
+	background: #532413;
+}
+li{
+	float: left;
+}
+.menu{
+	display: block;
+	text-decoration: none;
+	height: 50px;
+	width: 167px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	padding-top: 14px;
+	margin: 2px 0px 2px 3px;
+	text-align: center;
+	background: #532413;
+	color: #F2EEA7;
+}
+.menu:hover{
+	background: #37040C;
+}
+
+#logof{
+	margin: 20px 0px 0px 40px;
+	float: left;
+}
+#pie{
+	background: #37040C;
+	width: 1024px;
+	height: 90px;
+	float: left;
+}
+.pata{
+	display: block;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #F2EEA7;
+	margin: 20px 0px 0px 90px;
+	float: left;
+
+}
+.pata:hover{
+	color: #fff;
+}
+#inipata{
+	margin-left: 110px;
+}
+section{
+	width: 600px;
+	float: left;
+}
+h4{
+	color: #F2EEA7;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	margin: 10px 0px 0px 120px;
+	float: left;
+}
+.a-i{
+	text-decoration: none;
+}
+#einicio{
+	width: 502px;
+	height: 310px;
+	margin: 15px 0px 10px 15px;
+	float: left;
+	background: rgb(55,4,12);
+	text-align: justify;
+	padding: 39px;
+}
+#h-edit{
+	color: #F2EEA7;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	width: 490px;
+	height: 60px;
+	background: rgba(55,4,12,0.9);
+	padding:10px;
+	margin: -50px 0px 0px 0px;
+	float: left;
+}
+#h-edit:hover{
+	color: #fff
+}
+#ip-edit:hover{
+	color:#fff;
+}
+#img0:hover{
+	border:dotted 1px;
+}
+#ip-edit{
+	color: #F2EEA7;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 14px;
+	width: 350px;
+	height: 60px;
+	float: left;
+	margin:-70px 0px 0px 120px;
+}
+img{
+	float:left;
+}
+#itips{
+	width: 250px;
+	height: 330px;
+	margin: 0px 15px 15px 25px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+	text-align: justify;
+}
+#img1{
+	margin:15px 0px 0px 20px;
+}
+#h-tips{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	padding:10px;
+	margin: -70px 0px 0px 20px;
+	float: left;
+	background-color: rgba(242,238,167,0.7);
+	width: 190px;
+	height: 50px;
+}
+#iptip{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 14px;
+	float: left;
+	margin:-65px 0px 0px 90px;
+	font-size: 16px;
+	width: 120px;
+	height: 50px;
+}
+#icontact{
+	width: 250px;
+	height: 330px;
+	margin: 0px 15px 15px 25px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+	text-align: justify;
+}
+#img2{
+	margin: 30px 0px 0px 40px;
+}
+#h-cont{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	padding:10px;
+	margin: 50px 0px 0px 10px;
+	float: left;
+	background-color: rgba(242,238,167,0.7);
+	width: 210px;
+	height: 50px;
+}
+#ipcont{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 14px;
+	float: left;
+	margin:-65px 0px 0px 110px;
+	font-size: 16px;
+	width: 120px;
+	height: 50px;
+}
+#iprep{
+	width: 450px;
+	height: 300px;
+	margin: 0px 0px 10px 25px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+#img3{
+	margin: 10px 0px 0px 20px;
+}
+#h-prep{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	padding:10px;
+	margin: 0px 0px 0px 20px;
+	float: left;
+	background-color: rgba(242,238,167,0.7);
+	width: 388px;
+	height: 30px;
+}
+#ipprep{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 14px;
+	float: left;
+	margin:-45px 0px 0px 140px;
+	font-size: 16px;
+	width: 250px;
+	height: 50px;
+}
+#itour{
+	width: 450px;
+	height: 300px;
+	margin: 0px 0px 10px 45px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+#img4{
+	margin: 10px 0px 0px 20px;
+}
+#h-tour{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	padding:10px;
+	margin: -30px 0px 0px 21px;
+	float: left;
+	background-color: rgb(242,238,167);
+	width: 388px;
+	height: 30px;
+}
+#iptour{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 14px;
+	float: left;
+	margin:-45px 0px 0px 90px;
+	font-size: 16px;
+	width: 320px;
+	height: 50px;
+}
+#editorial{
+	width: 502px;
+	height: 680px;
+	margin: 15px 0px 10px 15px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	padding: 39px;
+}
+#titedit{
+	color: #37040C;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid 2px;
+	width: 500px;
+	text-align: center;
+}
+#textedit{
+	border-bottom: solid 2px;
+	border-color: #37040C;
+}
+#yo{
+	margin: -100px 0px 0px 420px;
+	border: dotted 1px;
+}
+#preparacion{
+	width: 502px;
+	height: 620px;
+	margin: 15px 0px 10px 15px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	padding: 39px;
+}
+#preptit{
+	color: #37040C;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid 2px;
+	width: 500px;
+	text-align: center;
+}
+.videos{
+	margin: 10px 0px 0px 10px;
+}
+#tour{
+	width: 580px;
+	height: 680px;
+	margin: 15px 0px 10px 15px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+}
+#tips{
+	width: 502px;
+	height: 820px;
+	margin: 15px 0px 10px 15px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	padding: 39px;
+}
+#tittip{
+	color: #37040C;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid 2px;
+	width: 500px;
+	text-align: center;
+}
+#texttip{
+	border-bottom: solid 2px;
+	border-color: #37040C;
+}
+#contactenos{
+	width: 580px;
+	height: 680px;
+	margin: 15px 0px 10px 15px;
+	float: left;
+	background: rgba(83,36,19,0.1);
+}
+#titcont{
+	color: #37040C;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	margin: 10px 0px 10px 40px;
+	border-bottom: solid 2px;
+	width: 500px;
+	text-align: center;
+	float:left;
+}
+.parcont{
+	color: #37040C;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	padding: 0px 40px 0px 40px;
+	float:left;
+}
+.contact{
+	margin:10px 0px 10px 40px;
+}
+#enviar{
+	margin: 10px 0px 0px 435px;
+	color: #37040C;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	float: left;
+}
+#btne{
+	margin: -30px 0px 0px 380px;
+	float: left;
+}
+#btne:hover{
+	background: url(../images/btn2.png);
+}
+aside
+{
+	float: left;
+	width: 400px;
+	height: 660px;
+	margin: 35px 0px 10px 20px;
+}
+#banner1{
+	float:left;
+	margin-left: 10px;
+
+}
+#banner2{
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+#banner1:hover{
+	border: dotted 1px;
+}
+#banner2:hover{
+	border: dotted 1px;
+}
+h2
+{
+	color: #37040C;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	margin: 10px 0px 10px 50px;
+	border-bottom: solid 2px;
+	width: 480px;
+	text-align: center;
+}
+#direcciones1{
+	color: #532413;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	margin: 30px 0px 0px 50px;
+	float: left;
+}
+#direcciones2{
+	color: #532413;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 16px;
+	margin: -143px 0px 0px 290px;
+	float: left;
+}
+#texttour{
+	color: #F2EEA7;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 14px;
+	margin: 10px 0px 0px 50px;
+	background: #532413;
+	text-align: justify;
+	padding: 10px;
+	width: 460px;
+}
+#wowslider-container1{
+	border: dotted 1px;
+}
+#h-tips:hover{
+	color: #fff
+}
+#iptip:hover{
+	color:#fff;
+}
+#img1:hover{
+	border-top: dotted 1px;
+}
+#h-cont:hover{
+	color: #fff
+}
+#ipcont:hover{
+	color:#fff;
+}
+#h-prep:hover{
+	color: #fff
+}
+#ipprep:hover{
+	color:#fff;
+}
+#img3:hover{
+	border-top: dotted 1px;
+}
+#h-tour:hover{
+	color: #fff
+}
+#iptour:hover{
+	color:#fff;
+}
+#img4:hover{
+	border-top:dotted 1px;
+}
